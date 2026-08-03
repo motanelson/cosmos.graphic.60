@@ -7,7 +7,7 @@ int main(int argc, char *argv[])
     int a;
     int counter = 0;
     char b[512];
-
+    printf("\033[47;30m\n");
     if (argc < 2) {
         printf("usage: %s <number>\n", argv[0]);
         return 1;
